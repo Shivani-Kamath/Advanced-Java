@@ -8,4 +8,4 @@
 
 [1c.4 LinkedListGetExample]->(https://github.com/Shivani-Kamath/Advanced-Java/blob/main/1c.LinkedList/1c.listget.png)
 
-[1c.5 LinkedListSwapExample]->(https://github.com/Shivani-Kamath/Advanced-Java/blob/main/1c.LinkedList/1c.listswap.png)
+[1c.5 LinkedListSwap]->(https://github.com/Shivani-Kamath/Advanced-Java/blob/main/1c.LinkedList/1c.listswap.png)
