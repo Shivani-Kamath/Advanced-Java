@@ -6,6 +6,6 @@
 
 [1c.3 LinkedListOfferLast]->()
 
-[1c.4 LinkedListGetExample]->()
+[1c.4 LinkedListGetExample]->(https://github.com/Shivani-Kamath/Advanced-Java/blob/main/1c.LinkedList/1c.listget.png)
 
 [1c.5 LinkedListSwapExample]->()
