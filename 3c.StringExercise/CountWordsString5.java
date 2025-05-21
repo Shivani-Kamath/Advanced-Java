@@ -4,7 +4,7 @@ countWords()*/
 package StringHandling;
 import java.util.Scanner;
 
-public class StringExerciseP10 {
+public class CountWordsString5 {
 
     public static int countWords(String str) {
         if (str == null || str.trim().isEmpty()) {
