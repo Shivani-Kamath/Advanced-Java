@@ -4,7 +4,7 @@ capitalizeWords()*/
 package StringHandling;
 import java.util.*;
 
-public class CapitalizeWordsString1 {
+public class CapitalizeWordsString {
 	public static String capitalizeWords(String str) {
         char[] chars = str.toCharArray();
         for (int i = 0; i < chars.length; i++) {
