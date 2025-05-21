@@ -3,7 +3,7 @@ defined function isNullOrEmpty().*/
 
 package StringHandling;
 import java.util.Scanner;
-public class StringExerciseP1 {
+public class IsNullOrEmptyString1 {
 
 	public static boolean isNullOrEmpty(String s) {
         if (s == null || s.isEmpty()) {
