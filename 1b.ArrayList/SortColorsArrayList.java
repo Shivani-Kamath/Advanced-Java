@@ -2,9 +2,9 @@
     3. Write a java program for getting different colors through ArrayList interface and  sort them 
 using Collections.sort( ArrayListObj)*/
 
-package AdvancedJava;
+package ArrayList;
 import java.util.*;
-public class ArrayListP3 {
+public class SortColorsArrayList {
     public static void main(String[] args) {
         List<String> colors = new ArrayList<>();
         colors.add("Orange");
