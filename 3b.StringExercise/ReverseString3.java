@@ -4,7 +4,7 @@ reverseString().*/
 package StringHandling;
 import java.util.*;
 
-public class StringExerciseP3 {
+public class ReverseString3 {
 	public static String reverseString(String str) {
         if (str == null) {
             return null;            
