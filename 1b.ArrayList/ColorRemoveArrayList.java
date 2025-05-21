@@ -1,9 +1,9 @@
 /* 1b.  Array List programs  
    2. Write a java program for getting different colors through ArrayList interface and remove the 
    2nd element and color "Blue" from the ArrayList */
-package AdvancedJava;
+package ArrayList;
 import java.util.*;
-public class ArrayListP2 {
+public class ColorRemoveArrayList {
 	public static void main(String[] args) {
 		List<String> ls = new ArrayList<>();
 		ls.add("Orange");
