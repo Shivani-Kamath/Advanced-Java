@@ -4,7 +4,7 @@ function generateRandomString()*/
 package StringHandling;
 import java.util.*;
 
-public class StringExerciseP9 {
+public class GenerateRandomString4 {
 	public static String generateRandomString(int length) {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         Random random = new Random();
