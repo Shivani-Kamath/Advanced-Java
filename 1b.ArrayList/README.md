@@ -8,4 +8,4 @@
 
 [1b.4 ColorSubListArrayList]->()
 
-[1b.5 ColorRemoveArrayList]->()
+[1b.5 ColorRemoveNthArrayList]->(https://github.com/Shivani-Kamath/Advanced-Java/blob/main/1b.ArrayList/1b.colorNth.png)
