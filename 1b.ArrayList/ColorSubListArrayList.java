@@ -2,10 +2,10 @@
    4.Write a java program for getting different colors through ArrayList interface and extract the 
 elements 1st and 2nd from the ArrayList object  by  using SubList() */
 
-package AdvancedJava;
+package ArrayList;
 import java.util.*;
 
-public class ArrayListP4 {
+public class ColorSubListArrayList {
 	public static void main(String[] args) {
         List<String> colors = new ArrayList<>();
         colors.add("Orange");
