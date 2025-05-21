@@ -9,10 +9,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class ButtonExample {
+public class CountryButtonDemo {
     JLabel l1;
 
-    ButtonExample() {
+   CountryButtonDemo() {
         JFrame f = new JFrame("Button Example");
 
         l1 = new JLabel();
@@ -47,6 +47,6 @@ public class ButtonExample {
     }
 
     public static void main(String[] args) {
-        new ButtonExample();
+        new CountryButtonDemo();
     }
 }
