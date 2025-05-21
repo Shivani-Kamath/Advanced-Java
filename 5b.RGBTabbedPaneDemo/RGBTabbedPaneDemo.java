@@ -6,9 +6,9 @@ package SwingAdvanced;
 import java.awt.Color;
 import javax.swing.*;
 
-public class TabbedPaneExample {
+public class RGBTabbedPaneDemo {
 
-    public TabbedPaneExample() {
+    public RGBTabbedPaneDemo() {
 
         JFrame frame = new JFrame("Color Tabs");
 
@@ -39,6 +39,6 @@ public class TabbedPaneExample {
     }
 
     public static void main(String[] args) {
-        new TabbedPaneExample();
+        new RGBTabbedPaneDemo();
     }
 }
