@@ -7,8 +7,8 @@ import java.awt.Color;
 import java.awt.Font;
 import javax.swing.*;
 
-class SwingExample {
-    SwingExample() {
+class HelloSwingExample {
+    HelloSwingExample() {
     	//Create a new JFrame container.
         JFrame jfrm = new JFrame("Swing Example");
         jfrm.setSize(800, 150);                    
@@ -34,7 +34,7 @@ class SwingExample {
     	//Create the frame on the event dispatching thread.
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                new SwingExample();
+                new HelloSwingExample();
             }
         });
     }
