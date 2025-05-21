@@ -2,9 +2,9 @@
   1. Write a Java program to iterate through all elements in a linked list starting at the 
 specified position ( 2nd) using iterator ( hint : Iterator iteratorobj = listobj.listIterator(1))*/
 
-package AdvancedJava;
+package LinkedList;
 import java.util.*;
-public class LinkedListP1 {
+public class LinkedListIterator {
 	public static void main(String[] args) {
         List<String> ls = new LinkedList<>();
         ls.add("Orange");
