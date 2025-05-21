@@ -2,9 +2,9 @@
  * 4. Write a Java program to display elements and their positions in a linked list ( using 
 l_listobj.get(p) )*/
 
-package AdvancedJava;
+package LinkedListGet;
 import java.util.*;
-public class LinkedListP4 {
+public class LinkedListGetExample {
 	public static void main(String[] args) {
         LinkedList<String> ls = new LinkedList<>();
         ls.add("Orange");
