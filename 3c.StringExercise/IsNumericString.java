@@ -6,7 +6,7 @@ package StringHandling;
 
 import java.util.Scanner;
 
-public class IsNumericString3 {
+public class IsNumericString {
 	public static boolean isNumeric(String str) {
         if (str.isEmpty()) {
             return false;
