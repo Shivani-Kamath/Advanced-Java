@@ -6,11 +6,11 @@ package SwingAdvanced;
 import java.awt.Color;
 import javax.swing.*;
 
-public class TabbedPaneColorExample {
+public class CMYTabbedPaneDemo {
 
     JFrame f;
 
-    TabbedPaneColorExample() {
+    CMYTabbedPaneDemo() {
         f = new JFrame();
 
         JPanel p1 = new JPanel();
@@ -40,6 +40,6 @@ public class TabbedPaneColorExample {
     }
 
     public static void main(String[] args) {
-        new TabbedPaneColorExample();
+        new CMYTabbedPaneDemo();
     }
 }
