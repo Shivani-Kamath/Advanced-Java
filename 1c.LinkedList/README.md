@@ -1,6 +1,6 @@
 1c.LinkedList
 
-[1c.1 LinkedListIterator]->()
+[1c.1 LinkedListIterator]->(https://github.com/Shivani-Kamath/Advanced-Java/blob/main/1c.LinkedList/1c.listiterator.png)
 
 [1c.2 LinkedListReverse]->()
 
