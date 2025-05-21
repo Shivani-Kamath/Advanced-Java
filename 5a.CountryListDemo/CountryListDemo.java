@@ -11,11 +11,11 @@ import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.event.ListSelectionEvent;
 
-public class JListExample extends JFrame {
+public class CountryListDemo extends JFrame {
 
     private final JList<String> countryList;
 
-    public JListExample() {
+    public CountryListDemo() {
 
         // Create the model and add elements
         DefaultListModel<String> listModel = new DefaultListModel<>();
@@ -51,6 +51,6 @@ public class JListExample extends JFrame {
     }
 
     public static void main(String[] args) {
-        new JListExample();
+        new CountryListDemo();
     }
 }
