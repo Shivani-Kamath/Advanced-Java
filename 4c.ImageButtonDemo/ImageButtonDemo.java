@@ -11,10 +11,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class ButtonExampleWithImages {
+public class ImageButtonDemo {
     JLabel l1;
 
-    ButtonExampleWithImages() {
+    ImageButtonDemo() {
         JFrame f = new JFrame("Button Example");
 
         l1 = new JLabel();
@@ -61,6 +61,6 @@ public class ButtonExampleWithImages {
     }
 
     public static void main(String[] args) {
-        new ButtonExampleWithImages();
+        new ImageButtonDemo();
     }
 }
