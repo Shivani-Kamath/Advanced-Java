@@ -3,7 +3,7 @@ defined function truncate()*/
 
 package StringHandling;
 import java.util.*;
-public class TruncateStringString2 {
+public class TruncateStringString {
 	 public static String truncate(String str, int length) {
 	        if (str.length() <= length) {
 	            return str;
