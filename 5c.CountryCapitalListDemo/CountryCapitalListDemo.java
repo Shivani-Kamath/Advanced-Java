@@ -10,12 +10,12 @@ import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-public class CountryCapitalExample extends JFrame {
+public class CountryCapitalListDemo extends JFrame {
 
     private JList<String> countryList;
     private Map<String, String> countryCapitalMap;
 
-    public CountryCapitalExample() {
+    public CountryCapitalListDemo() {
 
         // Map countries to their capitals
         countryCapitalMap = new HashMap<>();
@@ -66,6 +66,6 @@ public class CountryCapitalExample extends JFrame {
     }
 
     public static void main(String[] args) {
-        new CountryCapitalExample();
+        new CountryCapitalListDemo();
     }
 }
