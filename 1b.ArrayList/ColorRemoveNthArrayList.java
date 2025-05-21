@@ -2,9 +2,9 @@
     5. Write a java program for getting different colors through ArrayList interface and delete nth  
     element from the ArrayList object  by  using remove by index*/
 
-package AdvancedJava;
+package ArrayList;
 import java.util.*;
-public class ArrayListP5 {
+public class ColorRemoveNthArrayList {
 	public static void main(String[] args) {
         List<String> ls = new ArrayList<>();
         ls.add("Orange");
