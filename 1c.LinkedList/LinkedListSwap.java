@@ -3,9 +3,9 @@
  Collections.swap(l_list, 0, 2)) 
 */
 
-package AdvancedJava;
+package LinkedList;
 import java.util.*;
-public class LinkedListP5 {
+public class LinkedListSwap {
 	 public static void main(String[] args) {
 	        LinkedList<String> ls = new LinkedList<>();
 	        ls.add("Orange");
