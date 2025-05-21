@@ -1,6 +1,6 @@
 1b.ArrayList
 
-[1b.1 ColorSearchArrayList]->()
+[1b.1 ColorSearchArrayList]->(https://github.com/Shivani-Kamath/Advanced-Java/blob/main/1b.ArrayList/1b.colorsearch.png)
 
 [1b.2 ColorRemoveArrayList]->()
 
