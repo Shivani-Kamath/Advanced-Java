@@ -2,9 +2,9 @@
  *  2. Write a Java program to iterate a linked list in reverse order (using 
 objlist.descendingIterator())*/
 
-package AdvancedJava;
+package LinkedList;
 import java.util.*;
-public class LinkedListP2 {
+public class LinkedListReverse {
 	    public static void main(String[] args) {
 	        // Creating a LinkedList with color names
 	        LinkedList<String> ls = new LinkedList<>();
