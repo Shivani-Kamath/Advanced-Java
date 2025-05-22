@@ -3,7 +3,7 @@
 	package StringHandling;
 	import java.util.Scanner;
 	
-	public class RemoveWhitespaceStringP5 {
+	public class RemoveWhitespaceString {
 	
 	    public static String removeWhitespace(String str) {
 	        return str.replaceAll("\\s+", "");
