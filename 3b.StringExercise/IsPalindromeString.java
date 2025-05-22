@@ -3,7 +3,7 @@ and punctuation) using user defined function isPalindrome(): */
 
 package StringHandling;
 
-public class IsPalindromeString4 {
+public class IsPalindromeString {
 	 public static boolean isPalindrome(String s) {
 	        if (s == null) return false;
 
