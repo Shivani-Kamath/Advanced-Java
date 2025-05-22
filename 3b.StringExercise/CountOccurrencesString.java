@@ -3,7 +3,7 @@
 
 package StringHandling;
 
-public class CountOccurrencesString2 {
+public class CountOccurrencesString {
 
     public static int countOccurrences(String mainStr, String substr) {
         if (mainStr == null || substr == null || substr.isEmpty()) {
