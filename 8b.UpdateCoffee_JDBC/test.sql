@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS test;
+
+USE test;
+
+CREATE TABLE IF NOT EXISTS coffee (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    coffee_name VARCHAR(100),
+    price FLOAT
+);
