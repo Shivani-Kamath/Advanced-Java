@@ -30,5 +30,21 @@
 * **CRUD Operations** on Coffee and Employee databases
 * **HTML & JSP Integration** for insert, update, delete, and query with detailed reports
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 🛠️ JDBC Program Setup
+
+1. **Install XAMPP** and start **Apache** & **MySQL**.
+   [Download XAMPP](https://www.apachefriends.org/index.html)
+2. Import `Employee.sql` or `test.sql` via **phpMyAdmin** to create tables.
+   Access phpMyAdmin at `http://localhost/phpmyadmin`
+3. **Install Apache Tomcat** and configure it to run JSP/Servlets.
+   [Download Tomcat](https://tomcat.apache.org/)
+4. Add **MySQL Connector/J** JAR to your project’s classpath.
+   [Download MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
+
+
+
 
 
