@@ -4,23 +4,26 @@ your answer which one is better.*/
 
 package String_Functions;
 
-//Java Program to demonstrate the performance of StringBuffer and StringBuilder classes.
 public class PerformanceTest {
- public static void main(String[] args) {
-     long startTime = System.currentTimeMillis();
-     
-     StringBuffer sb = new StringBuffer("Java");
-     for (int i = 0; i < 10000; i++) {
-         sb.append("AIET");
-     }
-     System.out.println("Time taken by StringBuffer: " + (System.currentTimeMillis() - startTime) + " ms");
+    public static void main(String[] args) {
+        final int iterations = 10000;
 
-     startTime = System.currentTimeMillis();
-     
-     StringBuilder sb2 = new StringBuilder("Java");
-     for (int i = 0; i < 10000; i++) {
-         sb2.append("AIET");
-     }
-     System.out.println("Time taken by StringBuilder: " + (System.currentTimeMillis() - startTime) + " ms");
- }
+        // StringBuffer Test
+        long start = System.currentTimeMillis();
+        StringBuffer sbf = new StringBuffer("Java");
+        for (int i = 0; i < iterations; i++) sbf.append("AIET");
+        long timeBuffer = System.currentTimeMillis() - start;
+
+        // StringBuilder Test
+        start = System.currentTimeMillis();
+        StringBuilder sbd = new StringBuilder("Java");
+        for (int i = 0; i < iterations; i++) sbd.append("AIET");
+        long timeBuilder = System.currentTimeMillis() - start;
+
+        // Output
+        System.out.println("Time taken by StringBuffer: " + timeBuffer + " ms");
+        System.out.println("Time taken by StringBuilder: " + timeBuilder + " ms");
+
+        
+    }
 }
