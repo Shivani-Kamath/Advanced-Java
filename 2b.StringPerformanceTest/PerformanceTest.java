@@ -5,24 +5,36 @@ your answer which one is better.*/
 package String_Functions;
 
 public class PerformanceTest {
-    public static void main(String[] args) {
+	 public static void main(String[] args) {
+	        int iterations = 10000;
 
-        // StringBuffer Performance Test
-        long startTime = System.nanoTime();
-        StringBuffer sb = new StringBuffer("Java");
-        for (int i = 0; i < 10000; i++) {
-            sb.append("AIET");
-        }
-        long endTime = System.nanoTime();
-        System.out.println("Time taken by StringBuffer: " + (endTime - startTime) / 1_000_000.0 + " ms");
+	        // Test StringBuffer
+	        long startBuffer = System.nanoTime();
+	        StringBuffer sbuffer = new StringBuffer();
+	        for (int i = 0; i < iterations; i++) {
+	            sbuffer.append("AIET");
+	        }
+	        long endBuffer = System.nanoTime();
+	        long durationBuffer = endBuffer - startBuffer;
 
-        // StringBuilder Performance Test
-        startTime = System.nanoTime();
-        StringBuilder sb2 = new StringBuilder("Java");
-        for (int i = 0; i < 10000; i++) {
-            sb2.append("AIET");
-        }
-        endTime = System.nanoTime();
-        System.out.println("Time taken by StringBuilder: " + (endTime - startTime) / 1_000_000.0 + " ms");
-    }
+	        // Test StringBuilder
+	        long startBuilder = System.nanoTime();
+	        StringBuilder sbuilder = new StringBuilder();
+	        for (int i = 0; i < iterations; i++) {
+	            sbuilder.append("AIET");
+	        }
+	        long endBuilder = System.nanoTime();
+	        long durationBuilder = endBuilder - startBuilder;
+
+	        // Output results
+	        System.out.println("Time taken by StringBuffer: " + durationBuffer + " ns");
+	        System.out.println("Time taken by StringBuilder: " + durationBuilder + " ns");
+
+	        // Conclusion
+	        if (durationBuffer > durationBuilder) {
+	            System.out.println("StringBuilder is faster than StringBuffer.");
+	        } else {
+	            System.out.println("StringBuffer is comparable but slightly slower ");
+	        }
+	    }
 }
