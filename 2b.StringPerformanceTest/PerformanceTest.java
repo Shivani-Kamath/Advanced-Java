@@ -6,24 +6,23 @@ package String_Functions;
 
 public class PerformanceTest {
     public static void main(String[] args) {
-        final int iterations = 10000;
 
-        // StringBuffer Test
-        long start = System.currentTimeMillis();
-        StringBuffer sbf = new StringBuffer("Java");
-        for (int i = 0; i < iterations; i++) sbf.append("AIET");
-        long timeBuffer = System.currentTimeMillis() - start;
+        // StringBuffer Performance Test
+        long startTime = System.nanoTime();
+        StringBuffer sb = new StringBuffer("Java");
+        for (int i = 0; i < 10000; i++) {
+            sb.append("AIET");
+        }
+        long endTime = System.nanoTime();
+        System.out.println("Time taken by StringBuffer: " + (endTime - startTime) / 1_000_000.0 + " ms");
 
-        // StringBuilder Test
-        start = System.currentTimeMillis();
-        StringBuilder sbd = new StringBuilder("Java");
-        for (int i = 0; i < iterations; i++) sbd.append("AIET");
-        long timeBuilder = System.currentTimeMillis() - start;
-
-        // Output
-        System.out.println("Time taken by StringBuffer: " + timeBuffer + " ms");
-        System.out.println("Time taken by StringBuilder: " + timeBuilder + " ms");
-
-        
+        // StringBuilder Performance Test
+        startTime = System.nanoTime();
+        StringBuilder sb2 = new StringBuilder("Java");
+        for (int i = 0; i < 10000; i++) {
+            sb2.append("AIET");
+        }
+        endTime = System.nanoTime();
+        System.out.println("Time taken by StringBuilder: " + (endTime - startTime) / 1_000_000.0 + " ms");
     }
 }
